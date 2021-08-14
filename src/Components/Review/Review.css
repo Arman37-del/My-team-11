@@ -1,0 +1,22 @@
+.review {
+  display: flex;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: darkslategray;
+}
+.review img {
+  height: 100px;
+  width: 100px;
+}
+.review-name {
+    font-weight: 400;
+
+}.name{
+  color:greenyellow
+}
+.country{
+  color: lightgreen;
+}

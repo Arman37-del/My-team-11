@@ -1,0 +1,13 @@
+.header {
+  text-align: center;
+}
+.header nav {
+  line-height:25px;
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  margin-right: 100px;
+  padding: 5px;
+}

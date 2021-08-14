@@ -1,0 +1,15 @@
+.selected-player{
+    color:lawngreen;
+    border-bottom: 1px solid lightgray;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+.budget{
+    text-align: center;
+    color:lightsteelblue;
+}
+.list{
+    text-align: center;
+color: lightcyan;
+}
