@@ -1,25 +1,25 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import "./Review.css"
+import './MakeTeam.css'
 
-
-const Review = (props) => {
-    const{image,name,team}=props.list;
+const MakeTeam = (props) => {
     
-    // console.log(props.list)
+    const{image,name,team}=props.list;
     return (
-        <div className="review">
+        <div>
+            <div className="team">
             <div>
                 <img src={image} alt="" />
             </div>
-            <div className="review-name">
+            <div className="team-name">
                 <Container>
                     <h4 className="name">{name}</h4>
                     <h6 className="country">Country :{team}</h6>
                 </Container>
                 </div>
         </div>
+        </div>
     );
 };
 
-export default Review;
+export default MakeTeam;

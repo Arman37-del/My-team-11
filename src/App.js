@@ -1,11 +1,11 @@
 import './App.css';
-import Buy from './Components/Buy/Buy';
 import Header from './Components/Header/Header';
+import ShowPlayer from './Components/ShowPlayer/ShowPlayer';
 function App() {
   return (
     <div className="body">
       <Header></Header>
-      <Buy></Buy>
+      <ShowPlayer></ShowPlayer>
       
     </div>
   );
